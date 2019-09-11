@@ -1,48 +1,71 @@
-<html>
-<head>
-	<title>My Mapbox GL JS Map</title>
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://getbootstrap.com/docs/4.3/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-	<!-- Link to JQuery library (used for modal) -->	
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="description" content="">
+ <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+ <meta name="generator" content="Jekyll v3.8.5">
+ <title>Starter Template · Bootstrap</title>
 
-	<!-- Link to Mapbox GL JS library -->	
-	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
+ <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
 
-	<!-- Link to Mapbox GL JS css stylesheet -->	
-	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
+ <!-- Bootstrap core CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<!-- Link to our custom stylesheet -->	
-	<link rel="stylesheet" href="map.css">
 </head>
-
 <body>
+ <style>
 
-	<!-- Map  -->	
-	<div id="map"></div>
+    .semester { background-color: #ddd; padding: 50px 0; }
+    .cards-container { margin-top: 30px; } 
+    .card-container { 
+       display: inline-block;
+       vertical-align: top;
+       margin-bottom: 30px;
+  }
 
-	<!-- Info window (shows info about parks when hovering over a park)  -->	
-	<div class='map-overlay' id='features'>
-		<h2>Charlottesville Parks and Transit</h2>
-		<div id='info-window-body'>
-			<p>Hover over a park or click on a bus stop to learn more about it.</p>
-		</div>
-	</div>
+  img.card-img-top { border-bottom: 1px solid rgba(0,0,0,.125);}
+</style>
 
-	<!-- Map legend (content populated by our javascript) -->	
-	<div class='map-overlay' id='legend'></div>	
-	
-	<!-- "About this map" modal (hidden by default) -->	
-	<div class='modal'>
-		<h2 class='modal-title'>About this project</h2>
-		<div class='modal-body'><p>This is an example map of Charlottesville created in the Scripting Civic Engagement seminar at the University of Virginia (Fall 2017), taught by Andrea Hansen Phillips.</p><p>Map data courtesy of <a href='https://www.mapbox.com/studio/'>Mapbox Studio</a> and the <a href='http://www.charlottesville.org/online-services/maps-and-gis-data'>City of Charlottesville</a></p><p>For questions or to improve this map, contact <a href='mailto:ah2th@virginia.edu'>Andrea Hansen Phillips</a></p></div>
-		<button class='close-button'>&times;</button>  	<!-- A special "x" character (the multiply sign) used in close buttons -->	
-	</div>
-	<div id='screen'></div>
+<main role="main">
 
-	<!-- Button to hide or show "About this map" modal -->	
-	<button type='button' class='button-default' id="about">About this map</button> <!-- Button to hide or show modal -->
+     <div class="container">
+         <h1>Scripting Civic Engagement</h1>
+         <h3>Web Technologies for the Built Environment</h3>
+         <p class='lead'>LAR7415, 3 credit hour seminar<br/>
+              Instructor: <a href="http://hellodatum.com">Andrea Hansen Phillips</a><br/>
+              <a href="http://arch.virginia.edu">University of Virginia School of Architecture</a></p>
+     </div>
+     <div class="semester container-fluid">
+         <div class="container">
+            <h3>Fall 2018</h3>
+            <a class="btn btn-primary" href="/syllabi/fall2018.pdf">Download Fall 2018 Syllabus</a>
+            <div id="fall-18" class="cards-container">
+                    <div class="row">
+                    </div>            
+            </div>
+          </div>
+     </div>
+     <div class="semester container-fluid">
+          <div class="container">
+               <h3>Fall 2017</h3>
+               <a class="btn btn-primary" href="/syllabi/fall2017.pdf">Download Fall 2017 Syllabus</a>
+               <div id="fall-17" class="cards-container">
+                    <div class="row">
+                    </div>
+               </div>
+          </div>
+     </div>
+</main><!-- /.container -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Custom scripts -->
+<script src="scripts.js"></script>
+
+
 </body>
-
-<!-- Link to our custom javascript -->	
-<script src="map.js"></script>
- </html>
+</html>
