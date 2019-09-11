@@ -36,6 +36,60 @@ $(document).ready(function() {
 			image: "fall18/xlin.png",
 			url: "https://xiaoweivivi.github.io/FOODDESERTINCHARLOTTESVILLE/"
 		},
+		{ 
+			name: "Liwei Liu",
+			project: "Charlottesville Parking",
+			image: "fall18/lliu.png",
+			url: "https://lllliwei.github.io/Charlottesville-Parking/"
+		},
+		{ 
+			name: "Tong Liu",
+			project: "Rental Places in Walkable Distance for A-School Students",
+			image: "fall18/tliu.png",
+			url: "https://tongliuuuuu.github.io/ruunnn/"
+		},
+		{ 
+			name: "Huiru Shen",
+			project: "Charlottesville Green Infrastructure",
+			image: "fall18/hshen.png",
+			url: "https://huiru0519.github.io/Assignment4/"
+		},
+		{ 
+			name: "Vida Shen",
+			project: "Urban Hiking in San Francisco",
+			image: "fall18/vshen.png",
+			url: "https://vidashen.github.io/UrbanHiking/#"
+		},
+		{ 
+			name: "Yuchen Sun",
+			project: "Public Art Spots in Seattle",
+			image: "fall18/ysun.png",
+			url: "https://ycsun1917.github.io/yuchen-sea/"
+		},
+		{ 
+			name: "Qiuheng Xu",
+			project: "Sitting with WiFi",
+			image: "fall18/qxu.png",
+			url: "https://xqiuheng.github.io/Sitting-with-WIFI/"
+		},
+		{ 
+			name: "Ziqing Ye",
+			project: "Mumbai Religious Places",
+			image: "fall18/zye.png",
+			url: "https://yeziqing1212.github.io/Mumbai_Map/"
+		},
+		{ 
+			name: "Chenyu Zhang",
+			project: "New York Hydrology",
+			image: "fall18/czhang.png",
+			url: "https://cz2xu.github.io/nycfinalfinal/"
+		},
+		{ 
+			name: "Fangli Zhang",
+			project: "CANDY",
+			image: "fall18/fzhang.png",
+			url: "https://fanglizhang.github.io/CANDY/"
+		}
 	];
 	var fall17 = [ 
 		{ 
