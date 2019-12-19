@@ -1,4 +1,126 @@
 $(document).ready(function() {
+	var fall19 = [
+		{ 
+			name: "Xinhui Chen",
+			project: "Winneba Storyteller",
+			image: "fall19/xchen.png",
+			url: "https://xxinhuixx.github.io/LAR7415/"
+		},
+		{ 
+			name: "Zhenfang Chen",
+			project: "Agriculture+",
+			image: "fall19/zchen.png",
+			url: "https://zhenfangchen.github.io/agricultureplus/homepage.html"
+		},
+		{ 
+			name: "Mengyuan Duan",
+			project: "Ecotourism in Winneba",
+			image: "fall19/mduan.png",
+			url: "https://mengyuanduan7415.github.io/"
+		},
+		{ 
+			name: "Junhong Fu",
+			project: "Charlottesville Color Palette",
+			image: "fall19/jfu.png",
+			url: "https://bunnyjen.github.io/LAR7415-website/index.html"
+		},
+		{ 
+			name: "Xitong He",
+			project: "Madison, Indiana: Historic Site of the United States",
+			image: "fall19/xhe.png",
+			url: "https://shintonho.github.io/Madison/"
+		},
+		{ 
+			name: "Jingjing Ji",
+			project: "China, China!",
+			image: "fall19/jji.png",
+			url: "https://april1029.github.io/7415project/index.html"
+		},
+		{ 
+			name: "Jingwei Jiang",
+			project: "Best Run",
+			image: "fall19/jjiang.png",
+			url: "https://jingweijiang380.github.io/test-BR1/test%20BR.html"
+		},
+		{ 
+			name: "Jingjing Lai",
+			project: "Marijuana Justice",
+			image: "fall19/jlai.png",
+			url: "https://llleviner.github.io/marijuana/"
+		},
+		{ 
+			name: "Chaoming Li",
+			project: "Paperplane",
+			image: "fall19/cli.png",
+			url: "https://lcm1013.github.io/LAR7415_As2_Ex2_Chaoming/CSS%20Zen%20Garden_%20The%20Beauty%20of%20CSS%20Design.htm"
+		},
+		{ 
+			name: "Xun Liu",
+			project: "3rd Vision",
+			image: "fall19/xliu.png",
+			url: "https://xunliudesign.github.io/LAR7415_Final/index.html"
+		},
+		{ 
+			name: "Xinyu Tu",
+			project: "My Favourite Place",
+			image: "fall19/xtu.png",
+			url: "https://tikixzx.github.io/tour-helper/home.html"
+		},
+		{ 
+			name: "Tian Wang",
+			project: "Meet a Tree",
+			image: "fall19/twang.png",
+			url: "https://awesomebun.github.io/Assignment1205TW/Home.html"
+		},
+		{ 
+			name: "Xinyu Wang",
+			project: "Meet a Tree",
+			image: "fall19/xwang.png",
+			url: "https://xinyuxw6tg.github.io/walk-your-pet1204/index.html"
+		},
+		{ 
+			name: "Zhilu Wang",
+			project: "Donate and Rescue",
+			image: "fall19/zwang.png",
+			url: "https://zhiluwang545.github.io/Pages-All/index.html"
+		},
+		{ 
+			name: "Haoyue Wu",
+			project: "Seattle Insider",
+			image: "fall19/hwu.png",
+			url: "https://why0327.github.io/Seattle_Insider/home.html"
+		},
+		{ 
+			name: "Binyu Yang",
+			project: "City Recycling",
+			image: "fall19/byang.png",
+			url: "https://kurushimori.github.io/197415recycling/"
+		},
+		{ 
+			name: "Xuefei Yang",
+			project: "Trip to Oakland",
+			image: "fall19/xyang.png",
+			url: "https://xy6au.github.io/homepage/index.html"
+		},
+		{ 
+			name: "Ziyuan Yang",
+			project: "Equitable Mobility in Central Valley",
+			image: "fall19/zyang.png",
+			url: "https://yangzy0812.github.io/mywebproject/"
+		},
+		{ 
+			name: "Qinmeng Yu",
+			project: "Trip to Oakland",
+			image: "fall19/qyu.png",
+			url: "https://yuqinmeng2017.github.io/Jaipur-city-spine/"
+		},
+		{ 
+			name: "Shurui Zhang",
+			project: "Collective Memories",
+			image: "fall19/szhang.png",
+			url: "https://sz9na.github.io/collectivememories/Index.html"
+		},
+	];
 	var fall18 = [
 		{ 
 			name: "Yangqianqian Hu",
@@ -166,6 +288,7 @@ $(document).ready(function() {
 		},
 	];
 
+	generateCards(fall19, $("#fall-19>.row"));
 	generateCards(fall18, $("#fall-18>.row"));
 	generateCards(fall17, $("#fall-17>.row"));
 
